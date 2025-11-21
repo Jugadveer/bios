@@ -1,0 +1,197 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}WealthPlay - Financial Learning Platform{% endblock %}
+
+{% block extra_css %}
+<style>
+    .hero-section {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 80px 40px;
+        background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+        min-height: calc(100vh - 70px - 200px);
+    }
+
+    .hero-content h1 {
+        font-size: 72px;
+        font-weight: 800;
+        color: #EA580C;
+        margin-bottom: 20px;
+        letter-spacing: -3px;
+        line-height: 1.1;
+    }
+
+    .hero-content p {
+        font-size: 20px;
+        color: #666;
+        margin-bottom: 50px;
+        max-width: 600px;
+        line-height: 1.6;
+    }
+
+    .hero-buttons {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-btn {
+        padding: 18px 40px;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 10px;
+        text-decoration: none;
+        transition: all 0.3s;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .hero-btn-primary {
+        background: #EA580C;
+        color: white;
+        border: none;
+    }
+
+    .hero-btn-primary:hover {
+        background: #d8430f;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(234, 88, 12, 0.3);
+    }
+
+    .hero-btn-secondary {
+        background: white;
+        color: #EA580C;
+        border: 2px solid #EA580C;
+    }
+
+    .hero-btn-secondary:hover {
+        background: #fff5f0;
+        transform: translateY(-2px);
+    }
+
+    .features-section {
+        padding: 80px 40px;
+        background: white;
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 40px;
+        margin-top: 60px;
+    }
+
+    .feature-card {
+        padding: 30px;
+        background: #f9f9f9;
+        border-radius: 12px;
+        text-align: center;
+        transition: transform 0.3s;
+    }
+
+    .feature-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .feature-icon {
+        font-size: 48px;
+        color: #EA580C;
+        margin-bottom: 20px;
+    }
+
+    .feature-card h3 {
+        font-size: 22px;
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+    .feature-card p {
+        color: #666;
+        line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+        .hero-content h1 {
+            font-size: 48px;
+        }
+
+        .hero-content p {
+            font-size: 16px;
+        }
+
+        .hero-btn {
+            padding: 14px 30px;
+            font-size: 16px;
+        }
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="hero-section">
+    <div class="hero-content">
+        <h1>WealthPlay</h1>
+        <p>Master financial literacy through interactive courses and real-world scenarios. Learn, practice, and make better financial decisions.</p>
+        
+        {% if user.is_authenticated %}
+            <div class="hero-buttons">
+                <a href="/course/" class="hero-btn hero-btn-primary">
+                    <i class="fas fa-book"></i> Start Learning
+                </a>
+                <a href="/scenario/" class="hero-btn hero-btn-secondary">
+                    <i class="fas fa-gamepad"></i> Try Scenarios
+                </a>
+            </div>
+        {% else %}
+            <div class="hero-buttons">
+                <button onclick="openSignupModal()" class="hero-btn hero-btn-primary">
+                    <i class="fas fa-rocket"></i> Get Started
+                </button>
+                <button onclick="openLoginModal()" class="hero-btn hero-btn-secondary">
+                    <i class="fas fa-sign-in-alt"></i> Login
+                </button>
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+<div class="features-section">
+    <div style="text-align: center; margin-bottom: 40px;">
+        <h2 style="font-size: 36px; color: #333; margin-bottom: 15px;">Why WealthPlay?</h2>
+        <p style="font-size: 18px; color: #666;">Everything you need to master personal finance</p>
+    </div>
+    <div class="features-grid">
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>Interactive Courses</h3>
+            <p>Learn financial concepts through engaging, conversational lessons with AI mentors guiding you every step.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Real Scenarios</h3>
+            <p>Practice decision-making with realistic financial scenarios that test your knowledge and build confidence.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">
+                <i class="fas fa-robot"></i>
+            </div>
+            <h3>AI-Powered Learning</h3>
+            <p>Get personalized guidance from AI mentors that adapt to your learning style and answer your questions instantly.</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

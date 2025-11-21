@@ -1,0 +1,326 @@
+[
+  {
+    "id": "money-basics",
+    "title": "Money Basics",
+    "source": "https://www.investopedia.com/terms/m/money.asp",
+    "overview": "Understand what money is, how it stores value, the difference between income and wealth, and why inflation matters.",
+    "duration_mins": 10,
+    "modules": [
+      {
+        "id": "m1",
+        "title": "What is Money?",
+        "summary": "Definitions, functions of money (medium of exchange, unit of account, store of value).",
+        "fixed_qna": [
+          {"q": "What is the simplest definition of money?", "a": "Money is anything widely accepted in exchange for goods and services; it serves as a medium of exchange, a unit of account, and a store of value."},
+          {"q": "Why is inflation important for first-time earners?", "a": "Inflation reduces purchasing power over time — saving without returns can erode value. That's why understanding simple investing or high-yield savings matters."}
+        ]
+          }
+        ]
+      },
+      {
+    "id": "budgeting",
+    "title": "Budgeting & Saving",
+    "source": "https://www.consumer.gov/articles/managing-your-money",
+    "overview": "Practical methods for budgeting (50/30/20), goals, emergency funds, and automatic saving habits.",
+    "duration_mins": 15,
+    "modules": [
+      {
+        "id": "m1",
+        "title": "50/30/20 and Goal-setting",
+        "summary": "How to split income, set short/medium/long-term goals, and automate savings.",
+        "fixed_qna": [
+          {"q": "What is 50/30/20?", "a": "A simple rule: 50% needs, 30% wants, 20% savings/debt repayment. Use it as a starting point and tweak by personal goals."},
+          {"q": "How big should an emergency fund be?", "a": "Aim for 3–6 months of essential expenses. Start with a small target (₹5,000–₹10,000) and grow it steadily."}
+        ]
+          }
+        ]
+      },
+      {
+    "id": "debt-credit",
+    "title": "Debt & Credit",
+    "source": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/",
+    "overview": "Understand good vs bad debt, interest calculation, credit score basics and how to manage loans and credit cards.",
+    "duration_mins": 20,
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Interest & Credit Score",
+        "summary": "How interest compounds, how credit scores are built, and actions that improve scores.",
+        "fixed_qna": [
+          {"q": "What is compound interest?", "a": "Compound interest is interest on interest — your debt or investment grows faster when interest accumulates on previously earned interest."},
+          {"q": "How does credit card use affect score?", "a": "Timely payments and low utilization help. Maxing out a card or missing payments hurts your credit score."}
+        ]
+          }
+        ]
+      },
+      {
+    "id": "investing-101",
+    "title": "Investing Basics",
+    "source": "https://www.investopedia.com/articles/basics/06/invest1000.asp",
+    "overview": "Basic investing concepts: risk vs reward, diversification, time horizon, and the idea of compounding returns.",
+    "duration_mins": 25,
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Risk & Diversification",
+        "summary": "Risk types, why diversification reduces risk, and simple portfolio examples for beginners.",
+        "fixed_qna": [
+          {"q": "Why diversify?", "a": "Diversification spreads risk across assets so a single loss doesn't wipe out your portfolio."},
+          {"q": "What is an index fund?", "a": "An index fund is a fund that tracks a market index (e.g., NIFTY/S&P 500) offering broad market exposure and low fees."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "stocks-etfs",
+    "title": "Stocks & ETFs",
+    "source": "https://www.nseindia.com/learn/what-are-stocks",
+    "overview": "How stocks represent ownership, ETFs as baskets, basic order types, and reading simple stock charts.",
+    "duration_mins": 20,
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Stocks vs ETFs",
+        "summary": "Pros/cons of single stocks vs ETFs, fees, and volatility considerations.",
+        "fixed_qna": [
+          {"q": "Is it safer to buy ETFs than one stock?", "a": "Generally yes — ETFs provide immediate diversification, which lowers idiosyncratic risk compared to a single stock."},
+          {"q": "Do ETFs have fees?", "a": "Yes — ETFs have an expense ratio. Choose low-cost ETFs for long-term investing."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mutual-funds",
+    "title": "Mutual Funds & SIPs",
+    "source": "https://www.moneycontrol.com/mutual-funds/",
+    "overview": "Mutual fund basics, systematic investment plans (SIP), expense ratios, and how SIPs work for rupee-cost averaging.",
+    "duration_mins": 18,
+    "modules": [
+      {
+        "id": "m1",
+        "title": "SIP & Rupee-cost Averaging",
+        "summary": "How regular investments reduce timing risk and the advantages of disciplined SIPs.",
+        "fixed_qna": [
+          {"q": "What is a SIP?", "a": "A Systematic Investment Plan (SIP) lets you invest a fixed amount at regular intervals into a mutual fund."},
+          {"q": "How does rupee-cost averaging help?", "a": "You buy more units when prices are low and fewer when prices are high — smoothing entry price over time."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "emergency-insurance",
+    "title": "Emergency Fund & Insurance",
+    "source": "https://www.investopedia.com/terms/e/emergency_fund.asp",
+    "overview": "Design emergency savings and choose basic insurance (health, term, asset protection).",
+    "duration_mins": 15,
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Emergency Fund Strategy",
+        "summary": "How to build and maintain an emergency fund, when to use it, and insurance basics.",
+        "fixed_qna": [
+          {"q": "How much should I keep in emergency fund?", "a": "Aim for 3-6 months of essential expenses. Start small and build gradually."},
+          {"q": "What insurance do I need first?", "a": "Start with health insurance, then term life insurance. Asset insurance (home, vehicle) comes next based on your assets."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tax-planning",
+    "title": "Tax Planning",
+    "source": "https://www.incometaxindia.gov.in/",
+    "overview": "Overview of common tax concepts, tax-saving investments, and retirement accounts to start early.",
+    "duration_mins": 20,
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Tax-efficient Investing",
+        "summary": "Use tax-advantaged schemes and understand capital gains basics.",
+        "fixed_qna": [
+          {"q": "What is long-term capital gains?", "a": "Profit from selling investments after a defined period; tax rates often differ from short-term gains."},
+          {"q": "What are tax-saving investments?", "a": "ELSS mutual funds, PPF, NPS, and tax-saving FDs can help reduce your taxable income under Section 80C."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "retirement",
+    "title": "Retirement Planning",
+    "source": "https://www.investopedia.com/retirement/",
+    "overview": "Start planning for retirement early, understand retirement accounts, and calculate how much you need.",
+    "duration_mins": 20,
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Retirement Basics",
+        "summary": "Why start early, how much to save, and retirement account options (EPF, PPF, NPS).",
+        "fixed_qna": [
+          {"q": "When should I start saving for retirement?", "a": "Start as early as possible — even small amounts in your 20s can grow significantly due to compound interest."},
+          {"q": "How much do I need for retirement?", "a": "A common rule is 25-30x your annual expenses. Use retirement calculators to estimate based on your lifestyle and inflation."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "portfolio-building",
+    "title": "Portfolio Building",
+    "source": "https://www.investopedia.com/articles/basics/06/assetallocation.asp",
+    "overview": "Build model portfolios, asset allocation, and portfolio optimization basics for beginners.",
+    "duration_mins": 18,
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Asset Allocation",
+        "summary": "How to allocate assets based on age, risk tolerance, and goals. Simple portfolio frameworks.",
+        "fixed_qna": [
+          {"q": "How should I allocate my investments?", "a": "A common rule: 100 minus your age = % in equities. The rest in bonds and fixed income. Adjust based on risk tolerance."},
+          {"q": "What is a balanced portfolio?", "a": "A mix of stocks, bonds, and other assets that matches your risk tolerance and time horizon."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "real-estate",
+    "title": "Real Estate Basics",
+    "source": "https://www.investopedia.com/real-estate/",
+    "overview": "Understanding real estate investment, home buying basics, REITs, and property as an asset class.",
+    "duration_mins": 22,
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Real Estate Investment",
+        "summary": "Buying vs renting, REITs as an alternative, and real estate as part of your portfolio.",
+        "fixed_qna": [
+          {"q": "Should I buy or rent?", "a": "Depends on your financial situation, location stability, and local market. Buying requires large down payment and ongoing costs."},
+          {"q": "What are REITs?", "a": "Real Estate Investment Trusts let you invest in real estate without buying property directly. They're liquid and diversified."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "financial-goals",
+    "title": "Financial Goals",
+    "source": "https://www.consumer.gov/articles/managing-your-money",
+    "overview": "Setting SMART financial goals, prioritizing goals, and creating action plans to achieve them.",
+    "duration_mins": 15,
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Goal Setting",
+        "summary": "How to set specific, measurable, achievable, relevant, and time-bound financial goals.",
+        "fixed_qna": [
+          {"q": "How do I set financial goals?", "a": "Use SMART framework: Specific, Measurable, Achievable, Relevant, Time-bound. Start with short-term goals and build to long-term."},
+          {"q": "What goals should I prioritize?", "a": "Emergency fund first, then high-interest debt payoff, followed by retirement savings, then other goals like buying a home."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "behavioral-finance",
+    "title": "Money Psychology",
+    "source": "https://www.behavioralfinance.com/",
+    "overview": "How biases (loss aversion, anchoring, herd behavior) affect decisions and techniques to avoid common traps.",
+    "duration_mins": 15,
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Common Biases",
+        "summary": "Recognize and mitigate biases when investing and budgeting.",
+        "fixed_qna": [
+          {"q": "What is loss aversion?", "a": "People feel losses more strongly than equivalent gains, causing overly conservative or reactive decisions."},
+          {"q": "How to fight herd behavior?", "a": "Use rules (regular investing, checklists) and re-check decisions against goals instead of following the crowd."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "crypto-alternatives",
+    "title": "Crypto & Alternatives",
+    "source": "https://www.investopedia.com/cryptocurrency-4427699",
+    "overview": "Understanding cryptocurrencies, digital assets, risks, and when/if they fit in a portfolio.",
+    "duration_mins": 20,
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Crypto Basics",
+        "summary": "What is cryptocurrency, blockchain basics, risks, and how to approach crypto investing safely.",
+        "fixed_qna": [
+          {"q": "Should I invest in cryptocurrency?", "a": "Crypto is highly speculative and volatile. Only invest what you can afford to lose, and keep it to a small portion (5-10%) of portfolio if at all."},
+          {"q": "What are the risks?", "a": "High volatility, regulatory uncertainty, security risks, and potential for total loss. Treat as high-risk speculative investment."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "banking-products",
+    "title": "Banking Products",
+    "source": "https://www.consumerfinance.gov/",
+    "overview": "Understanding different banking products, savings accounts, FDs, RDs, and choosing the right bank.",
+    "duration_mins": 12,
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Bank Accounts & FDs",
+        "summary": "Types of accounts, fixed deposits, recurring deposits, and how to choose banking products.",
+        "fixed_qna": [
+          {"q": "What's the difference between savings and current account?", "a": "Savings accounts earn interest and have transaction limits. Current accounts are for businesses with higher transaction volumes."},
+          {"q": "Are FDs safe?", "a": "Yes, FDs are considered very safe as they're insured up to ₹5 lakhs per bank by DICGC. Returns are guaranteed but lower than other investments."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "market-fundamentals",
+    "title": "Market Fundamentals",
+    "source": "https://www.nseindia.com/learn",
+    "overview": "Understanding how stock markets work, market cycles, bull and bear markets, and reading market indicators.",
+    "duration_mins": 25,
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Market Basics",
+        "summary": "How markets function, supply and demand, market cycles, and basic market terminology.",
+        "fixed_qna": [
+          {"q": "What is a bull market?", "a": "A period when stock prices are rising generally, typically 20% or more from recent lows. Investor confidence is high."},
+          {"q": "What is a bear market?", "a": "A period when stock prices are falling generally, typically 20% or more from recent highs. Investor confidence is low."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "risk-management",
+    "title": "Risk Management",
+    "source": "https://www.investopedia.com/terms/r/riskmanagement.asp",
+    "overview": "Understanding different types of risk, how to manage risk, and protecting your investments.",
+    "duration_mins": 18,
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Types of Risk",
+        "summary": "Market risk, credit risk, inflation risk, and how to mitigate each through diversification and strategies.",
+        "fixed_qna": [
+          {"q": "What are the main types of investment risk?", "a": "Market risk (prices go down), credit risk (borrower defaults), inflation risk (purchasing power erodes), and liquidity risk (can't sell quickly)."},
+          {"q": "How do I reduce risk?", "a": "Diversify across asset classes, invest for long-term, avoid putting all money in one investment, and maintain emergency fund."}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scams-safety",
+    "title": "Scams & Safety",
+    "source": "https://investor.sebi.gov.in/",
+    "overview": "Recognizing investment scams, Ponzi schemes, and how to invest safely through regulated channels.",
+    "duration_mins": 15,
+    "modules": [
+      {
+        "id": "m1",
+        "title": "Avoiding Scams",
+        "summary": "Red flags of investment scams, how to verify legitimacy, and safe investing practices.",
+        "fixed_qna": [
+          {"q": "How do I spot investment scams?", "a": "Warning signs: guaranteed high returns, pressure to invest quickly, unregistered entities, too-good-to-be-true promises."},
+          {"q": "How do I verify if an investment is legitimate?", "a": "Check if registered with SEBI, verify credentials, read fine print, never invest based solely on social media ads or unsolicited calls."}
+        ]
+      }
+    ]
+  }
+]
